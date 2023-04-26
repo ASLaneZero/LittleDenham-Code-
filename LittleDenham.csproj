@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
   <GamePath>D:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
@@ -8,6 +8,10 @@
   <ItemGroup>
     <None Remove=".gitattributes" />
     <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LittleDenham.sln" />
   </ItemGroup>
 
   <ItemGroup>

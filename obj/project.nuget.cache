@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "N0NZgsmX+Negdp0HXtJRyEbMhdpDCiu9RZsZ2Uy1hn64w/skwnzKc7Dk/LX0XS1LetPGuAPSft2FLIkxP/WA8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mail\\OneDrive\\Desktop\\Working\\LittleDenhamLift\\LittleDenham.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mail\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.1.0\\pathoschild.stardew.modbuildconfig.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

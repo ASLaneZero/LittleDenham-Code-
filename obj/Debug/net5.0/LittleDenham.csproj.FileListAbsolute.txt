@@ -1,0 +1,10 @@
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\bin\Debug\net5.0\LittleDenham.deps.json
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\bin\Debug\net5.0\LittleDenham.dll
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\bin\Debug\net5.0\LittleDenham.pdb
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.csproj.AssemblyReference.cache
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.AssemblyInfoInputs.cache
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.AssemblyInfo.cs
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.csproj.CoreCompileInputs.cache
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.dll
+C:\Users\mail\OneDrive\Desktop\Working\LittleDenhamLift\obj\Debug\net5.0\LittleDenham.pdb

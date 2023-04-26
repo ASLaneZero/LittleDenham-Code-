@@ -2,7 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/LittleDenham/DesignTimeBuild/.dtbcache.v2
-/.vs/LittleDenham/FileContentIndex
-/.vs/LittleDenham/v17
-/.gitignore
+/.vs/
+.gitignore

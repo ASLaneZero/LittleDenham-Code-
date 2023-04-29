@@ -25,7 +25,7 @@ namespace LittleDenham
                 selectionActions.Add(delegate
                 {
                     Game1.playSound("crystal");
-                    Game1.warpFarmer("Custom_LDLobby", 14, 16, false);
+                    Game1.warpFarmer("Custom_LDLobby", 14, 16, true);
                 });
             }
             if (!tileActionString.Contains("2"))
@@ -34,7 +34,7 @@ namespace LittleDenham
                 selectionActions.Add(delegate
                 {
                     Game1.playSound("crystal");
-                    Game1.warpFarmer("Custom_LDLobby", 14, 10, false);
+                    Game1.warpFarmer("Custom_LDLobby", 14, 10, true);
                 });
             }
             if (!tileActionString.Contains("3"))
@@ -43,7 +43,7 @@ namespace LittleDenham
                 selectionActions.Add(delegate
                 {
                     Game1.playSound("crystal");
-                    Game1.warpFarmer("Custom_LDLobby", 14, 4, false);
+                    Game1.warpFarmer("Custom_LDLobby", 14, 4, true);
                 });
             }
             choices.Add(new Response("cancel", Helper.Translation.Get("LD.Lift.Exit")));

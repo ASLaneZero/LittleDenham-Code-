@@ -1,12 +1,4 @@
 ﻿using StardewModdingAPI;
-using System;
-using System.Collections.Generic;
-using StardewValley;
-using StardewModdingAPI.Events;
-using Microsoft.Xna.Framework;
-using StardewValley.Menus;
-using System.Linq;
-using StardewValley.Locations;
 
 namespace LittleDenham
 {

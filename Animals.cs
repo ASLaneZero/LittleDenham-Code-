@@ -23,27 +23,27 @@ namespace LittleDenham
 
             Multiplayer multiplayer = Animals.Helper.Reflection.GetField<Multiplayer>(typeof(Game1), "multiplayer").GetValue();
 
-            FarmAnimal CowWhiteLD = new FarmAnimal("White Cow", multiplayer.getNewID(), -1L)
+            FarmAnimal CowWhiteLD = new("White Cow", multiplayer.getNewID(), -1L)
             {
                 Position = new Vector2(96 * Game1.tileSize, 18 * Game1.tileSize)
             };
 
-            FarmAnimal CowBrownLD1 = new FarmAnimal("Brown Cow", multiplayer.getNewID(), -1L)
+            FarmAnimal CowBrownLD1 = new("Brown Cow", multiplayer.getNewID(), -1L)
             {
                 Position = new Vector2(102 * Game1.tileSize, 19 * Game1.tileSize)
             };
 
-            FarmAnimal CowBrownLD2 = new FarmAnimal("Brown Cow", multiplayer.getNewID(), -1L)
+            FarmAnimal CowBrownLD2 = new("Brown Cow", multiplayer.getNewID(), -1L)
             {
                 Position = new Vector2(106 * Game1.tileSize, 9 * Game1.tileSize)
             };
 
-            FarmAnimal GoatLD = new FarmAnimal("Goat", multiplayer.getNewID(), -1L)
+            FarmAnimal GoatLD = new("Goat", multiplayer.getNewID(), -1L)
             {
                 Position = new Vector2(106 * Game1.tileSize, 16 * Game1.tileSize)
             };
 
-            FarmAnimal PigLD = new FarmAnimal("Pig", multiplayer.getNewID(), -1L)
+            FarmAnimal PigLD = new("Pig", multiplayer.getNewID(), -1L)
             {
                 Position = new Vector2(108 * Game1.tileSize, 18 * Game1.tileSize)
             };

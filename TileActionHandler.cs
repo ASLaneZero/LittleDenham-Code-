@@ -10,7 +10,7 @@ namespace LittleDenham
     public class TileActionHandler
     {
 
-        static Dictionary<string, Action<string, Vector2>> tileActions = new Dictionary<string, Action<string, Vector2>>();
+        static Dictionary<string, Action<string, Vector2>> tileActions = new();
 
         static IModHelper Helper;
         internal static void Initialize(IModHelper Helper)

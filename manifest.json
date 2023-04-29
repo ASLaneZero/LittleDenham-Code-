@@ -2,9 +2,15 @@
   "Name": "Little Denham SMAPI Component",
   "Author": "ASLane Zero",
   "Version": "1.0.0",
-  "Description": "Primarily a lift framework reverse-engineered from RSV's minecarts.",
+  "Description": "SMAPI code elements for Little Denham.",
   "UniqueID": "ASLane.LittleDenham.SMAPI",
   "EntryDll": "LittleDenham.dll",
   "MinimumApiVersion": "3.0.0",
-  "UpdateKeys": [ "Nexus:16081" ]
+  "UpdateKeys": [ "Nexus:16081" ],
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.SVECode",
+      "IsRequired": false
+    }
+  ]
 }

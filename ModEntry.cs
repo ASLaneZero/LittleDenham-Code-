@@ -9,11 +9,11 @@ namespace LittleDenham
         public override void Entry(IModHelper helper)
         {
             ModMonitor = Monitor;
-            Helper = helper;
-            
+            Helper = helper;           
             Lifts.Initialize(this);
             TileActionHandler.Initialize(Helper);
             Animals.Initialize(this);
+            EnterFlat.Initialize(this);
         }
     }
 }

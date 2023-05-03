@@ -9,31 +9,24 @@ namespace LittleDenham
 {
     public class TileActionHandler
     {
-
         static Dictionary<string, Action<string, Vector2>> tileActions = new();
-
         static IModHelper Helper;
         internal static void Initialize(IModHelper Helper)
         {
             TileActionHandler.Helper = Helper;
             TileActionHandler.Helper.Events.Input.ButtonPressed += OnButtonPressed;
         }
-
         internal static void RegisterTileAction(string name, Action<string, Vector2> actionFunction)
         {
             Log.Trace($"Registered {name}");
             tileActions.Add(name, actionFunction);
         }
-
         private static void OnButtonPressed(object sender, ButtonPressedEventArgs e)
         {
-
-
             if (!e.Button.IsActionButton())
                 return;
             if (!Context.IsWorldReady)
                 return;
-
             bool probablyDontCheck =
             !StardewModdingAPI.Context.CanPlayerMove
             || Game1.player.isRidingHorse()
@@ -42,12 +35,10 @@ namespace LittleDenham
             || Game1.isFestival()
             || Game1.IsFading()
             || Game1.menuUp;
-
             if (probablyDontCheck)
             {
                 return;
             }
-
             Vector2 clickedTile = Vector2.Zero;
             string actionString = "";
             bool usingGamepad = Game1.options.gamepadControls;
@@ -62,7 +53,6 @@ namespace LittleDenham
                 actionString = Game1.currentLocation.doesTileHaveProperty(((int)clickedTile.X), ((int)clickedTile.Y), "Action", "Buildings");
 
             }
-
             if (actionString != null && actionString != "")
             {
                 Log.Trace($"Checking for {actionString}");

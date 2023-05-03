@@ -50,6 +50,5 @@ namespace LittleDenham
             selectionActions.Add(delegate { });
             Game1.activeClickableMenu = new DialogueBoxWithActions(Helper.Translation.Get("LD.Lift.Question"), choices, selectionActions);
         }
-
     }
 }

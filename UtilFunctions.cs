@@ -20,7 +20,6 @@ namespace LittleDenham
             }
             else
             {
-
                 LocationRequest warpRequest = Game1.getLocationRequest(locationName);
                 warpRequest.OnLoad += delegate
                 {
@@ -28,9 +27,7 @@ namespace LittleDenham
                 };
                 Game1.warpFarmer(warpRequest, x, y, Game1.player.FacingDirection);
             }
-
         }
-
         public static IEnumerable<Point> YieldSurroundingTiles(Vector2 tile, int radius = 1)
         {
             int x = (int)tile.X;
@@ -43,7 +40,6 @@ namespace LittleDenham
                 }
             }
         }
-
         public static IEnumerable<Vector2> YieldAllTiles(GameLocation location)
         {
             for (int x = 0; x < location.Map.Layers[0].LayerWidth; x++)
@@ -54,14 +50,12 @@ namespace LittleDenham
                 }
             }
         }
-
         public static List<string> ContextSort(IEnumerable<string> enumerable)
         {
             List<string> outputlist = enumerable.ToList();
             outputlist.Sort(GetCurrentLanguageComparer(ignoreCase: true));
             return outputlist;
         }
-
         public static StringComparer GetCurrentLanguageComparer(bool ignoreCase = false)
             => StringComparer.Create(Game1.content.CurrentCulture, ignoreCase);
     }

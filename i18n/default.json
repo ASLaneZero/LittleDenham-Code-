@@ -3,5 +3,6 @@
   "LD.Lift.Location.1": "Ground Floor",
   "LD.Lift.Location.2": "First Floor",
   "LD.Lift.Location.3": "Second Floor",
-  "LD.Lift.Exit": "Cancel"
+  "LD.Lift.Exit": "Cancel",
+  "LD.FlatA.Door":  "It seemed to be locked, but the moment you touched the door, the frame came away in chunks. The door swings open."
 }

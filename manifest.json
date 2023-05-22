@@ -1,7 +1,7 @@
 {
   "Name": "Little Denham SMAPI Component",
   "Author": "ASLane Zero",
-  "Version": "0.1.1",
+  "Version": "0.1.2",
   "Description": "SMAPI code elements for Little Denham.",
   "UniqueID": "ASLane.LittleDenham.SMAPI",
   "EntryDll": "LittleDenham.dll",

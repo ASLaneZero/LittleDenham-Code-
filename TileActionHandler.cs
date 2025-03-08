@@ -28,13 +28,7 @@ namespace LittleDenham
             if (!Context.IsWorldReady)
                 return;
             bool probablyDontCheck =
-            !StardewModdingAPI.Context.CanPlayerMove
-            || Game1.player.isRidingHorse()
-            || Game1.currentLocation == null
-            || Game1.eventUp
-            || Game1.isFestival()
-            || Game1.IsFading()
-            || Game1.menuUp;
+            !StardewModdingAPI.Context.CanPlayerMove;
             if (probablyDontCheck)
             {
                 return;

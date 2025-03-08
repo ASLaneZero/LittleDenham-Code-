@@ -12,7 +12,6 @@ namespace LittleDenham
             Helper = helper;           
             Lifts.Initialize(this);
             TileActionHandler.Initialize(Helper);
-            Animals.Initialize(this);
             EnterFlat.Initialize(this);
         }
     }

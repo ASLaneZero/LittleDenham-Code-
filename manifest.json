@@ -6,11 +6,5 @@
   "UniqueID": "ASLane.LittleDenham.SMAPI",
   "EntryDll": "LittleDenham.dll",
   "MinimumApiVersion": "3.0.0",
-  "UpdateKeys": [ "Nexus:16081" ],
-  "Dependencies": [
-    {
-      "UniqueID": "FlashShifter.SVECode",
-      "IsRequired": false
-    }
-  ]
+  "UpdateKeys": [ "Nexus:16081" ]
 }
